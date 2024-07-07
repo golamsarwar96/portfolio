@@ -199,6 +199,8 @@ main{
     text-align: center;
 }
 
+
+
 .summery-container{
     display : flex;
     gap: 25px;
@@ -238,6 +240,7 @@ main{
     letter-spacing: 0%;
     text-align: left;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .sub-header{
@@ -248,6 +251,7 @@ main{
     line-height: 27px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 5px;
 }
 
 .sub-description{
@@ -258,4 +262,39 @@ main{
     line-height: 28px;
     letter-spacing: 0%;
     text-align: left;
+    margin-top : 0;
+}
+
+
+/* footer style */
+
+footer{
+    background-color: #FFF8F3 ;
+    display: flex;
+    padding : 150px 190px;
+}
+
+.footer-para{
+    width:80%;
+}
+
+.footer-column{
+    width:50%;
+}
+ 
+
+footer input[type="text"], input[type="email"], footer textarea{
+    height : 55px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 90%;
+    border : none;
+    margin-top : 10px;
+    margin-bottom: 10px;
+    padding : 5px 20px;
+}
+
+.summery button{
+    margin-bottom : 100px;
 }
